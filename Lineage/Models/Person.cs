@@ -15,8 +15,8 @@ namespace Lineage.Models
         public Sex Gender { get; set; }
         public DateTime Birthdate { get; set; }
         public DateTime DeathDate { get; set; }
-        public Dictionary<Relationship, Person> Relations { get; set; }
-        public List<Event> LifeEvents { get; set; }
+        public List<Relation> Relations { get; set; }
+        public List<LifeEvent> LifeEvents { get; set; }
         public List<Address> Addresses { get; set; }
             
     }

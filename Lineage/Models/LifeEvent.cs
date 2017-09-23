@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Lineage.Models
 {
-    public class Event
+    public class LifeEvent
     {
         public Guid EventId { get; set; }
         public DateTime OccurredOn { get; set; }
